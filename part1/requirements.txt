@@ -1,0 +1,8 @@
+Install  following
+ Python 3
+Opencv
+Numby
+Tensorflow
+Keras
+Scipy
+
