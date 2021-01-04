@@ -44,7 +44,7 @@ drive.mount('/content/drive')
 ### defining the path to the dataset folder and face feature of harrcascade file
 ### Defining required variables
 ### preprocess the dataset .understand the script(passportsize image),selfies
-###count number of employee and their script and selfi images
+### count number of employee and their script and selfi images
 
 ## 3. Defining the Model
 ### What is one shot Learning?
@@ -74,29 +74,6 @@ triplet_model.fit(data_gen(),steps_per_epoch=100,epochs=5)
 
 
 ### Defining model for triplet loss
-
-Model: "model"
-__________________________________________________________________________________________________
-Layer (type)                    Output Shape         Param     Connected to                     
-==================================================================================================
-input_5 (InputLayer)            [(None, 3, 96, 96)]  0                                            
-__________________________________________________________________________________________________
-input_7 (InputLayer)            [(None, 3, 96, 96)]  0                                            
-__________________________________________________________________________________________________
-input_6 (InputLayer)            [(None, 3, 96, 96)]  0                                            
-__________________________________________________________________________________________________
-FaceRecognotionModel (Functiona (None, 128)          3743280     input_5[0][0]                    
-                                                                 input_7[0][0]                    
-                                                                 input_6[0][0]                    
-__________________________________________________________________________________________________
-concatenate_8 (Concatenate)     (None, 384)          0           FaceRecognotionModel[0][0]       
-                                                                 FaceRecognotionModel[1][0]       
-                                                                 FaceRecognotionModel[2][0]       
-==================================================================================================
-Total params: 3,743,280
-Trainable params: 3,733,968
-Non-trainable params: 9,312
-__________________________________________________________________________________________________
 
 Training the model
 
