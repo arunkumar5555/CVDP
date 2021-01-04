@@ -7,11 +7,11 @@
  
  ## STEPS
  
- ### 1. Download the Dataset [click]()
+ ### 1. Download the Dataset [click](https://drive.google.com/file/d/1-FUDK8olQ6eBO9t2hjcBLtxBTnRzKNYU/view?usp=sharing)
  ### 2. preprocessing the dataset
  ### 3. Defining the Model 
  ### 4. Defining the Triplet Loss Function
- ### 5. start  Training the model
+ ### 5. start  Training the model[model](https://drive.google.com/file/d/1SMElsLSd5tR3rTJwawMF0OVKL6pP6vdl/view?usp=sharing)
  ### 6. Implementation of the model
  
  
@@ -54,7 +54,7 @@ drive.mount('/content/drive')
 ### compile it and save the architecture
 
 plot_model(model,to_file='/content/drive/MyDrive/Colab Notebooks/DLCV/output/Inception_one_shot.png')
-
+![model](https://drive.google.com/file/d/1-IOKS0qgNIU3mE52M48g6f4CPlmcqEsW/view?usp=sharing)
 
 ## 4. Defining the Triplet Loss Function
 ### Defining the Triplet Loss Function
@@ -64,7 +64,8 @@ plot_model(model,to_file='/content/drive/MyDrive/Colab Notebooks/DLCV/output/Inc
 ### compile model
 ### summarize themodel
 ### plot the model Architecture
-### 
+### ![triplet-model](https://drive.google.com/file/d/1-Jnf64F1ssTZCD4U6ThfUUF2RARImwt5/view?usp=sharing)
+
 ## 5. start  Training the model
 ### We will be training the model for 5 epoch and with steps_per_epoch as 100 .These hyperparameters can be changed as per the availablity of computional power
 ### Since batch size is 32 and total number of samples is almost 3200 so steps_per_epoch=100
@@ -72,11 +73,11 @@ plot_model(model,to_file='/content/drive/MyDrive/Colab Notebooks/DLCV/output/Inc
 triplet_model.fit(data_gen(),steps_per_epoch=100,epochs=5)
 
 
-Defining model for triplet loss
+### Defining model for triplet loss
 
 Model: "model"
 __________________________________________________________________________________________________
-Layer (type)                    Output Shape         Param #     Connected to                     
+Layer (type)                    Output Shape         Param     Connected to                     
 ==================================================================================================
 input_5 (InputLayer)            [(None, 3, 96, 96)]  0                                            
 __________________________________________________________________________________________________
