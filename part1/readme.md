@@ -90,11 +90,11 @@ Epoch 5/5
 
 <tensorflow.python.keras.callbacks.History at 0x7f75a206cac8>
 
-Implementation of the model
+### Implementation of the model
 
-Function to preprocess the image according to the model requirements.
+### Function to preprocess the image according to the model requirements.
 
-It uses haar cascade to detect the face and crops the face to remove the unwanted noise from the image and then resize it to (96,96).
+### It uses haar cascade to detect the face and crops the face to remove the unwanted noise from the image and then resize it to (96,96).
 
 ### save the model
 ### load the model for testing
@@ -103,9 +103,9 @@ It uses haar cascade to detect the face and crops the face to remove the unwante
 ### Function to preprocess the image according to the model requirements.
 ### It uses haar cascade to detect the face and crops the face to remove the unwanted noise from the image and then resize it to (96,96).      
 
-## resize the image
-## Function to convert the image to embeddings
-## Function to calculate the distance between the embeddings and confidence score
-## Testing
+### resize the image
+### Function to convert the image to embeddings
+### Function to calculate the distance between the embeddings and confidence score
+### Testing
 
 ### matching the script image to selfies
