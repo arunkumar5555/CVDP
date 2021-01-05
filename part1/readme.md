@@ -69,7 +69,7 @@ drive.mount('/content/drive')
 ### compile it and save the architecture
 
 plot_model(model,to_file='/content/drive/MyDrive/Colab Notebooks/DLCV/output/Inception_one_shot.png')
-![model](https://drive.google.com/file/d/1-IOKS0qgNIU3mE52M48g6f4CPlmcqEsW/view?usp=sharing)
+![model](https://github.com/arunkumar5555/CVDP.git/part1/output/inception_one_shot)
 
 ## 4. Defining the Triplet Loss Function
 ### Defining the Triplet Loss Function
@@ -79,7 +79,7 @@ plot_model(model,to_file='/content/drive/MyDrive/Colab Notebooks/DLCV/output/Inc
 ### compile model
 ### summarize themodel
 ### plot the model Architecture
-### ![triplet-model](https://drive.google.com/file/d/1-Jnf64F1ssTZCD4U6ThfUUF2RARImwt5/view?usp=sharing)
+### ![triplet-model](https://github.com/arunkumar5555/CVDP.git/part1/output/triplet_model.png)
 
 ## 5. start  Training the model
 ### We will be training the model for 5 epoch and with steps_per_epoch as 100 .These hyperparameters can be changed as per the availablity of computional power
